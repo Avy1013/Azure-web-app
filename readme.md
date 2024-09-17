@@ -15,11 +15,11 @@ This project is a simple Flask application deployed on **Azure Web Apps** using 
 
 ## Steps for 1st ---
 1. Create a Azure app through azure portal 
-    enable basic authencation to make sure you can download publish_profile
+> enable basic authencation to make sure you can download publish_profile
 2. Push your simple flask app to github
 3. use pip freeze in your enviroment to have requirement.txt
 4. Write ci/cd yml 
     Includes following steps
-    > building and installing requirments
-    > deploying the app on webapp
+    1. building and installing requirments
+    2. deploying the app on webapp
 5. run the Job
