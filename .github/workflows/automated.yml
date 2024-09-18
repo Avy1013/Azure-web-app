@@ -11,5 +11,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Run a script
-      run: echo "Hello, this is a manual trigger!"
+    - name: Azure login
+      uses: Azure/login@v2.0.0
+      with: 
+        ${{ secrets.AZURE_CREDENTIALS }}
