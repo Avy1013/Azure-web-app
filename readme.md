@@ -20,6 +20,7 @@ This project is a simple Flask application deployed on **Azure Web Apps** using 
 
 #### Steps:
 1. **Create an Azure Web App via the Azure Portal**
+   - Use python 3.9 as runtime stack  
    - Its fine to use default settings for a web_app
    - Ensure **Basic Authentication** in deployment section is enabled so you can download the `publish_profile`.
    
