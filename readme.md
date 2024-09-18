@@ -35,6 +35,7 @@ You can deploy the app using one of two methods:
    - Write a GitHub Actions YAML file that:
      1. Builds and installs the necessary requirements.
      2. Deploys the app to the Azure Web App using the `publish_profile`.
+     3. Make Sure that publish_profile is in the secrets.
 
 5. **Run the GitHub Actions workflow**
    - Trigger the workflow by pushing your code to the main branch.
