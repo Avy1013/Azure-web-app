@@ -20,24 +20,25 @@ This project is a simple Flask application deployed on **Azure Web Apps** using 
 
 #### Steps:
 1. **Create an Azure Web App via the Azure Portal**
-   - Ensure **Basic Authentication** is enabled so you can download the `publish_profile`.
+   - Its fine to use default settings for a web_app
+   - Ensure **Basic Authentication** in deployment section is enabled so you can download the `publish_profile`.
    
-2. **Push your Flask app to GitHub** 
+3. **Push your Flask app to GitHub** 
    - Ensure the code is hosted in a GitHub repository.
 
-3. **Generate `requirements.txt`**
+4. **Generate `requirements.txt`**
    - Use `pip freeze` in your virtual environment to create the `requirements.txt` file:
      ```bash
      pip freeze > requirements.txt
      ```
 
-4. **Set up the CI/CD pipeline**
+5. **Set up the CI/CD pipeline**
    - Write a GitHub Actions YAML file that:
      1. Builds and installs the necessary requirements.
      2. Deploys the app to the Azure Web App using the `publish_profile`.
      3. Make Sure that publish_profile is in the secrets.
 
-5. **Run the GitHub Actions workflow**
+6. **Run the GitHub Actions workflow**
    - Trigger the workflow by pushing your code to the main branch.
 
 ---
