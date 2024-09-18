@@ -10,9 +10,9 @@ This project is a simple Flask application deployed on **Azure Web Apps** using 
 - Basic knowledge of Flask and Azure Web Apps
 
 ## Deployment Methods
-You can deploy the app using one of two methods:
+
 1. **Manual Azure Web App creation with CI/CD deployment**
-2. **Automated deployment using Azure CLI and CI/CD** (one-click setup)
+
 
 ---
 
@@ -42,10 +42,4 @@ You can deploy the app using one of two methods:
 
 ---
 
-### 2. One-Click Azure CLI Automation with CI/CD
 
-For this method, you can automate the entire process using Azure CLI. This will create the Azure Web App and deploy the Flask app in a single click, integrated with CI/CD.
-
----
-
-By following either method, you can successfully deploy your Flask app on Azure Web Apps with GitHub Actions handling CI/CD. 
