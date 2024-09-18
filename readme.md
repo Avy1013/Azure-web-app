@@ -41,6 +41,7 @@ This project is a simple Flask application deployed on **Azure Web Apps** using 
 
 6. **Run the GitHub Actions workflow**
    - Trigger the workflow by pushing your code to the main branch.
+   - Make sure before running you change app name in the workflow
 
 ---
 
